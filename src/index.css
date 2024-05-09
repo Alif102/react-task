@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.first-layout {
+    width: 250px;
+    height: 758px;
+    background-color: #FFF;
+    box-shadow: 0px 5px 12.9px 0px rgba(0, 0, 0, 0.10);
+}
+
+.first-column {
+    width: 226px;
+    height: 92px;
+    background-color: #D9D9D9;
+}
+
+.second-column {
+    width: 160px;
+    height: 600px;
+    background-color: #D9D9D9;
+}
+
+.second-layout {
+    width: 1728px;
+    height: 1300px;
+    background-color: #FFF;
+}
+.nav-item {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
