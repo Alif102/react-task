@@ -34,3 +34,40 @@
     font-weight: 500;
     line-height: normal;
 }
+.box-2{
+    width: 345px;
+    height: 469px;
+    background: #D9D9D9;
+}
+.box-text1{
+    color: #000;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.box-text {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    
+    }
+.box{
+width: 121px;
+height: 79px;
+background: #fff;
+}
+.news-box{
+    width: 60px;
+    height: 50px;
+    background: #fff;
+ }
+.news-box2{
+    width: 121px;
+    height: 79px;
+    background: #D9D9D9;
+    }

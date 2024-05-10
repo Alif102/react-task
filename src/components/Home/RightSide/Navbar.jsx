@@ -1,11 +1,10 @@
-import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="border-b border-l border-r border-gray-700">
       <div className="bg-white shadow-lg h-[47px]">
                 <ul className="navbar flex  gap-6">
-                    <li className="nav-item">প্রচ্ছদ</li>
+                    <li className="nav-item bg-gray-300 px-2 py-1 rounded-md">প্রচ্ছদ</li>
                     <li className="nav-item">বিদেশ</li>
                     <li className="nav-item">খেলা</li>
                     <li className="nav-item">বিনোদন</li>

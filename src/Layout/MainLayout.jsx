@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../components/Header'
 import Home from '../components/Home/Home'
 
@@ -6,11 +5,10 @@ const MainLayout = () => {
   return (
     <div>
         <Header/>
-        <div className='w-[100%] mx-auto'>
+        <div className='md:w-[100%] md:pl-7 lg:pl-6'>
         <Home/>
 
         </div>
-
     </div>
   )
 }
