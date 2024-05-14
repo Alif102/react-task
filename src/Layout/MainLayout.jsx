@@ -1,11 +1,15 @@
 import Home from "../Pages/Home/Home"
 
+
 const MainLayout = () => {
   return (
     <div>
        
         <div className='container mx-auto'>
-        <Home/>
+         
+          <Home/>
+          
+       
 
         </div>
     </div>

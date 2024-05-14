@@ -8,7 +8,7 @@ const NewsTabs = () => {
     <div className="bg-[#D9D9D9] w-[100%] h-[490px]">
       <div className="flex ">
         <button
-          className={`px-4 py-2 ${
+          className={` py-2 ${
             activeTab === 1 ? 'bg-[#BDBDBD] text-black' : 'bg-[#D9D9D9]'
           }`}
           onClick={() => setActiveTab(1)}
@@ -16,7 +16,7 @@ const NewsTabs = () => {
           সর্বশেষ
         </button>
         <button
-          className={`px-4 py-2 ${
+          className={` py-2 ${
             activeTab === 2 ? 'bg-[#BDBDBD] text-black' : 'bg-[#D9D9D9]'
           }`}
           onClick={() => setActiveTab(2)}

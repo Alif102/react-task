@@ -13,7 +13,7 @@ import NewsTabs from './RightSide/NewsTabs'
 const Home = () => {
   return (
     <div>
-      <div className='grid md:grid-cols-12 mx-10 gap-6 lg:grid-cols-12 grid-cols-1'>
+      <div className='grid md:grid-cols-12 md:mx-10 mx-2 gap-6 lg:grid-cols-12 grid-cols-1'>
 
 
         <div className='col-span-2 order-last md:order-first hidden lg:block lg:order-first gap-3 '>
@@ -25,12 +25,12 @@ const Home = () => {
         </div>
 
 
-        <div className='col-span-10   '>
+        <div className='md:col-span-10    '>
 
           <Navbar />
-          <div className='grid grid-cols-8 gap-5 '>
+          <div className='grid md:grid-cols-8 lg:grid-cols-8 grid-cols-1 gap-5 '>
 
-            <div className='col-span-5'>
+            <div className='md:col-span-5  col-span-1'>
               <div>
                 <div className='w-[95%] h-[250px] mt-5 bg-[#D9D9D9]'>
 
@@ -39,7 +39,7 @@ const Home = () => {
               </div>
 
             </div>
-            <div className='col-span-3 h-[400px] w-[100%] mt-4 bg-[#D8D8D8]'>
+            <div className='md:col-span-3  col-span-1 h-[400px] w-[100%] mt-4 bg-[#D8D8D8]'>
 
 
               <RightThird />
@@ -50,8 +50,8 @@ const Home = () => {
           </div>
 
           <Add />
-          <div className='grid grid-cols-8 pt-4 pb-5'>
-            <div className='col-span-5 gap-3'>
+          <div className='grid  md:grid-cols-8 grid-cols-1 pt-4 space-y-2 pb-5'>
+            <div className='md:col-span-5 grid-cols-1 gap-3'>
               <h1 className='font-bold text-3xl'>জাতীয়</h1>
               <div className=' border-black py-3 border-b-4'></div>
               <div className='flex flex-1 gap-3 mt-4'>
@@ -66,7 +66,7 @@ const Home = () => {
                 </div>
 
 
-                <div className='w-[100%] mb-3 h-[165px] '>
+                <div className='w-[100%] hidden md:block mb-3 h-[165px] '>
                   <NewsDiv2 />
 
                 </div>
@@ -76,7 +76,7 @@ const Home = () => {
             </div>
 
 
-            <div className='col-span-3'>
+            <div className='md:col-span-3 grid-cols-1'>
               <NewsTabs />
 
 
