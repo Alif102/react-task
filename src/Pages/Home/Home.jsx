@@ -1,13 +1,11 @@
-import car1 from '../../assets/Images/car1.jpg'
+
 import LeftSide from './LeftSide'
 import Add from './RightSide/Add'
-// import Banner from './RightSide/Banner'
+
 import Navbar from './RightSide/Navbar'
 import NewsDiv2 from './RightSide/NewsDiv2'
 import RightThird from './RightSide/RightThird'
 
-
-//  import NewsDiv2 from './RightSide/NewsDiv2'
 import NewsTabs from './RightSide/NewsTabs'
 
 const Home = () => {
@@ -17,9 +15,7 @@ const Home = () => {
 
 
         <div className='col-span-2 order-last md:order-first hidden lg:block lg:order-first gap-3 '>
-          {/* <div className=" w-[100%]  h-[40px] mt-4 rounded-md pt-5 pb-5 shadow-md  flex items-center justify-center">
-            <img src={car1} alt="car" />
-          </div> */}
+
           <LeftSide />
 
         </div>
@@ -86,14 +82,14 @@ const Home = () => {
 
           </div>
 
-         
+
 
           <div>
-            
+
           </div>
         </div>
-        
-        
+
+
 
       </div>
 
