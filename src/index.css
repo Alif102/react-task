@@ -2,34 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.first-layout {
-    width: 250px;
-    height: 758px;
-    background-color: #FFF;
-    box-shadow: 0px 5px 12.9px 0px rgba(0, 0, 0, 0.10);
-}
-
-.first-column {
-    width: 226px;
-    height: 92px;
-    background-color: #D9D9D9;
-}
-
-.second-column {
-    width: 160px;
-    height: 600px;
-    background-color: #D9D9D9;
-}
-
-.second-layout {
-    width: 1728px;
-    height: 1300px;
-    background-color: #FFF;
-}
 .nav-item {
     color: #000;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -38,11 +14,13 @@
     width: 345px;
     height: 469px;
     background: #D9D9D9;
+    
+    
 }
 .box-text1{
     color: #000;
 font-family: Inter;
-font-size: 28px;
+
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -50,24 +28,33 @@ line-height: normal;
 .box-text {
     color: #000;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
     
     }
 .box{
-width: 121px;
-height: 79px;
+width:75px;
+height: 39px;
 background: #fff;
 }
 .news-box{
-    width: 60px;
-    height: 50px;
-    background: #fff;
+    width: 50%;
+    height: 20px;
+    background: #F5F5F5;
+    margin-left: 2px;
  }
 .news-box2{
-    width: 121px;
-    height: 79px;
+    width: 30%;
+    height: 39px;
     background: #D9D9D9;
     }
+    .news-box3{
+        width: 35%;
+        height: 50px;
+        background: #F5F5F5;
+        margin-left: 2px;
+     }
+
+    

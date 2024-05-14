@@ -5,7 +5,7 @@ const NewsTabs = () => {
   const [activeTab, setActiveTab] = useState(1);
 
   return (
-    <div className="bg-[#D9D9D9] p-4">
+    <div className="bg-[#D9D9D9] w-[100%] h-[490px]">
       <div className="flex ">
         <button
           className={`px-4 py-2 ${
@@ -54,7 +54,7 @@ const NewsTabs = () => {
           </div>
         )}
       </div>
-      <div className='bg-[#BDBDBD] w-full h-8'>
+      <div className='bg-[#BDBDBD] w-full mt-4 h-8'>
 <h1 className=' text-center p-1 font-bold'>আজকের সব খবর</h1>
       </div>
     </div>
