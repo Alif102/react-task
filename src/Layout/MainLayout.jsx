@@ -1,5 +1,4 @@
-import Header from '../components/Header'
-import Home from '../components/Home/Home'
+import Home from "../Pages/Home/Home"
 
 const MainLayout = () => {
   return (
