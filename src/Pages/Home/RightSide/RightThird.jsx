@@ -9,7 +9,7 @@ const RightThird = () => {
       {/* <div className='col-span-3 col-span-2 w-full md:col-span-3 bg-[#D9D9D9]'> */}
 
 
-<div className='  flex flex-col space-y-3 gap-3 px-3 py-4'>
+<div className='  flex flex-col space-y-4 gap-3 px-3 py-4'>
  
 
   <div className='flex justify-center items-center gap-2'>

@@ -39,7 +39,7 @@ const Home = () => {
               </div>
 
             </div>
-            <div className='col-span-3 mt-4 bg-[#D8D8D8]'>
+            <div className='col-span-3 h-[400px] w-[100%] mt-4 bg-[#D8D8D8]'>
 
 
               <RightThird />
