@@ -34,7 +34,7 @@ const Home = () => {
               </div>
 
             </div>
-            <div className='md:col-span-3  col-span-1 px-2 h-[400px] w-[100%] mt-4 shadow-lg'>
+            <div className='md:col-span-3  col-span-1 px-2 h-[404px] w-[100%] mt-4 shadow-lg'>
 
 
               <RightThird />

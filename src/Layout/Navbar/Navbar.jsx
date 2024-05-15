@@ -13,7 +13,7 @@ function Navbar() {
 	};
 
 	return (
-		<header className=" w-[94%] mx-auto  ">
+		<header className=" w-[92%] mx-auto  ">
 			 <a className="">
             <img className='h-[50px] w-[70%] rounded-md' src={logo} alt="logo" />
           </a>
