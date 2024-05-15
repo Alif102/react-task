@@ -2,7 +2,6 @@
 import LeftSide from './LeftSide'
 import Add from './RightSide/Add'
 
-import Navbar from './RightSide/Navbar'
 import NewsDiv2 from './RightSide/NewsDiv2'
 import RightThird from './RightSide/RightThird'
 
@@ -11,10 +10,10 @@ import NewsTabs from './RightSide/NewsTabs'
 const Home = () => {
   return (
     <div>
-      <div className='grid md:grid-cols-12 md:mx-10 mx-2 gap-6 lg:grid-cols-12 grid-cols-1'>
+      <div className='grid md:grid-cols-12 md:mx-10 ml-4 gap-6 lg:grid-cols-12 grid-cols-1'>
 
 
-        <div className='col-span-2 order-last md:order-first hidden lg:block lg:order-first gap-3 '>
+        <div className='col-span-2 order-last md:order-first lg:block lg:order-first gap-3 '>
 
           <LeftSide />
 
@@ -23,19 +22,19 @@ const Home = () => {
 
         <div className='md:col-span-10    '>
 
-          <Navbar />
+        
           <div className='grid md:grid-cols-8 lg:grid-cols-8 grid-cols-1 gap-5 '>
 
             <div className='md:col-span-5  col-span-1'>
               <div>
-                <div className='w-[95%] h-[250px] mt-5 bg-[#D9D9D9]'>
+                <div className='w-[100%] mx-auto h-[250px] mt-5 bg-[#D9D9D9]'>
 
                 </div>
                 <h1 className="box-text1 md:block sm:text-center md:text-start text-sm md:text-xl lg:text-2xl mt-3">কায়রো থেকে মরুভূমিতে রাজধানী সরিয়ে নিচ্ছে মিসর</h1>
               </div>
 
             </div>
-            <div className='md:col-span-3  col-span-1 h-[400px] w-[100%] mt-4 bg-[#D8D8D8]'>
+            <div className='md:col-span-3  col-span-1 px-2 h-[400px] w-[100%] mt-4 shadow-lg'>
 
 
               <RightThird />
@@ -62,7 +61,7 @@ const Home = () => {
                 </div>
 
 
-                <div className='w-[100%] hidden md:block mb-3 h-[165px] '>
+                <div className='w-[100%] hidden md:block mb-3 h-[95px] '>
                   <NewsDiv2 />
 
                 </div>

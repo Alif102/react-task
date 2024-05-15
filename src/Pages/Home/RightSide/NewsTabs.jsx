@@ -8,7 +8,7 @@ const NewsTabs = () => {
     <div className="bg-[#D9D9D9] w-[100%] h-[490px]">
       <div className="flex ">
         <button
-          className={` py-2 ${
+          className={`px-3 py-2 ${
             activeTab === 1 ? 'bg-[#BDBDBD] text-black' : 'bg-[#D9D9D9]'
           }`}
           onClick={() => setActiveTab(1)}
@@ -16,7 +16,7 @@ const NewsTabs = () => {
           সর্বশেষ
         </button>
         <button
-          className={` py-2 ${
+          className={`px-3 py-2 ${
             activeTab === 2 ? 'bg-[#BDBDBD] text-black' : 'bg-[#D9D9D9]'
           }`}
           onClick={() => setActiveTab(2)}
@@ -30,22 +30,7 @@ const NewsTabs = () => {
       >
         {activeTab === 1 && (
           <div className="p-4">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              faucibus ex vel dui fermentum, nec faucibus velit feugiat.
-              Vivamus vitae fringilla elit. Cras rutrum libero vitae risus
-              condimentum, a tristique turpis convallis. Vestibulum quis nisl
-              lacinia, faucibus enim sed, blandit est. Proin posuere leo at
-              est ultricies, nec convallis mi mattis. Sed eget nisl sed dolor
-              interdum ultrices sed id neque. Proin at ligula nec mauris
-              lobortis ultricies. Nam euismod diam at diam maximus, in finibus
-              lorem venenatis. Vivamus consequat, est nec fermentum pharetra,
-              risus nulla commodo purus, at scelerisque turpis magna sed
-              lorem. Fusce congue justo felis, at cursus tortor suscipit a.
-              Nullam vel velit ac turpis suscipit tempus. Ut pellentesque nunc
-              justo, sit amet posuere magna efficitur at. Vestibulum id
-              condimentum nulla, et ultrices risus.
-            </p>
+            <NewsTabScroll/>
           </div>
         )}
         {activeTab === 2 && (

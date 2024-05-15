@@ -10,21 +10,24 @@
     font-weight: 500;
     line-height: normal;
 }
-.box-2{
+
+.box-2 {
     width: 345px;
     height: 469px;
     background: #D9D9D9;
-    
-    
-}
-.box-text1{
-    color: #000;
-font-family: Inter;
 
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+
 }
+
+.box-text1 {
+    color: #000;
+    font-family: Inter;
+
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
 .box-text {
     color: #000;
     font-family: Inter;
@@ -32,29 +35,31 @@ line-height: normal;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    
-    }
-.box{
-width:75px;
-height: 39px;
-background: #fff;
+
 }
-.news-box{
+
+.box {
+    width: 75px;
+    height: 39px;
+    background: #fff;
+}
+
+.news-box {
     width: 52px;
     height: 20px;
+    background: #e7e6ec;
+    margin-left: 2px;
+}
+
+.news-box2 {
+    width: 180px;
+    height: 90px;
+   
+}
+
+.news-box3 {
+    width: 35%;
+    height: 50px;
     background: #F5F5F5;
     margin-left: 2px;
- }
-.news-box2{
-    width: 30%;
-    height: 39px;
-    background: #D9D9D9;
-    }
-    .news-box3{
-        width: 35%;
-        height: 50px;
-        background: #F5F5F5;
-        margin-left: 2px;
-     }
-
-    
+}

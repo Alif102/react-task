@@ -1,21 +1,70 @@
 
+
+import logo from '../../../assets/Images/news_logo.png'
+
 const Navbar = () => {
   return (
     <div className="">
-      <div className="bg-white shadow-lg h-[47px] border-b border-l w-[100%] overflow-x-auto overflow-y-hidden border-r border-gray-700">
-                <ul className="navbar flex flex items-center justify-start  gap-2">
-                    <li className="nav-item bg-gray-300 py-1 rounded-md">প্রচ্ছদ</li>
-                    <li className="nav-item">বিদেশ</li>
-                    <li className="nav-item">খেলা</li>
-                    <li className="nav-item">বিনোদন</li>
-                    <li className="nav-item">প্রবাস</li>
-                    <li className="nav-item">স্বাস্থ্য</li>
-                    <li className="nav-item">বিচিত্রিতা</li>
-                    <li className="nav-item">ধর্ম</li>
-                    <li className="nav-item">সুসংবাদ</li>
-                    <li className="nav-item">অন্যান্য..</li>
-                </ul>
+     
+      <div className="navbar border-b border-l w-[93%] mx-auto bg-base-100">
+        <div className="navbar-start">
+         
+          <a className="">
+            <img className='h-[50px] w-[70%] rounded-md' src={logo} alt="logo" />
+          </a>
+        </div>
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu  menu-horizontal px-1">
+            <li><a>প্রচ্ছদ</a></li>
+
+            <li><a>বিদেশ</a></li>
+            <li><a>খেলা</a></li>
+            <li><a>বিনোদন</a></li>
+            <li><a>প্রবাস</a></li>
+            <li><a>স্বাস্থ্য</a></li>
+            <li ><a>বিচিত্রিতা</a></li>
+            <li ><a>ধর্ম</a></li>
+            <li ><a>সুসংবাদ</a></li>
+            <li ><a>অন্যান্য...</a></li>
+          </ul>
+        </div>
+        <div className="navbar-end ml-6 ">
+        <div className="dropdown ">
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </div>
+            {/* <ul tabIndex={0} className="menu  menu-sm dropdown-content mt-3 z-[1] pt-2 shadow bg-base-100 rounded-box w-52">
+              <li ><a>প্রচ্ছদ</a></li>
+
+              <li><a>বিদেশ</a></li>
+              <li><a>খেলা</a></li>
+              <li><a>বিনোদন</a></li>
+              <li><a>প্রবাস</a></li>
+              <li><a>স্বাস্থ্য</a></li>
+              <li><a>বিচিত্রিতা</a></li>
+
+              <li ><a>ধর্ম</a></li>
+              <li ><a>সুসংবাদ</a></li>
+              <li ><a>অন্যান্য...</a></li>
+            </ul> */}
+           <div className=' '>
+           <ul tabIndex={0} className="menu  menu-sm bg-base-100 z-[1] pt-2 rounded-box dropdown-content">
+            <li ><a>প্রচ্ছদ</a></li>
+            <li><a>বিদেশ</a></li>
+              <li><a>খেলা</a></li>
+              <li><a>বিনোদন</a></li>
+              <li><a>প্রবাস</a></li>
+              <li><a>স্বাস্থ্য</a></li>
+              <li><a>বিচিত্রিতা</a></li>
+
+              <li ><a>ধর্ম</a></li>
+              <li ><a>সুসংবাদ</a></li>
+              <li ><a>অন্যান্য...</a></li>
+            </ul>
+           </div>
+          </div>
+  </div>
+      </div>
     </div>
   )
 }
