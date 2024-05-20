@@ -3,7 +3,7 @@ import NewsTypeOne from "./CustomComponent/NewsTypeOne"
 const SorbocchoPothito = () => {
     return (
       <div>
-          <div className="w-[60%] h-auto flex justify-center mx-auto">
+          <div className="w-[100%] h-auto flex justify-center mx-auto">
             
                 <NewsTypeOne title='এ বিভাগের সর্বোচ্চ পঠিত' content1='কায়রো থেকে মরুভূমিতে রাজধানী সরিয়ে নিচ্ছে মিসর' 
                 content2='কায়রো থেকে মরুভূমিতে রাজধানী সরিয়ে নিচ্ছে মিসর'

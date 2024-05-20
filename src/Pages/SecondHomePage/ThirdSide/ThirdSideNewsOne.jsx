@@ -3,7 +3,7 @@ import NewsTypeOne from "../../../Component/CustomComponent/NewsTypeOne"
 const ThirdSideNewsOne = () => {
     return (
       <div>
-          <div className="w-[80%] md:ml-[72px] ml-1">
+          <div className="w-[100%]  ml-1">
             
                 <NewsTypeOne title=' সর্বশেষ খবর' content1='কায়রো থেকে মরুভূমিতে রাজধানী সরিয়ে নিচ্ছে মিসর' 
                 content2='কায়রো থেকে মরুভূমিতে রাজধানী সরিয়ে নিচ্ছে মিসর'

@@ -4,6 +4,8 @@ import Add from '../Home/RightSide/Add'
 import SorbocchoPothito from '../../Component/SorbocchoPothito'
 import ThirdSideNewsOne from './ThirdSide/ThirdSideNewsOne'
 import NewsTabs from '../Home/RightSide/NewsTabs'
+import v1 from '../../assets/Images/v1.jpg'
+import NewsCard from '../../Component/NewsCard'
 
 const SecondHomePage = () => {
   return (
@@ -20,12 +22,12 @@ const SecondHomePage = () => {
          
           <Add />
 
-          <div className='grid md:grid-cols-8 grid-cols-1  gap-2'>
+          <div className='grid md:grid-cols-8 grid-cols-1  gap-6'>
 
             <div className='md:col-span-5'>
               <h1 className="box-text1 md:block sm:text-center md:text-start my-2 text-sm md:text-xl lg:text-2xl mt-3">কায়রো থেকে মরুভূমিতে রাজধানী <br /> সরিয়ে নিচ্ছে মিসর</h1>
 
-              <div className="flex items-center justify-center my-3 w-[50%] h-[250px]  font-bold bg-[#D9D9D9]">ADD</div>
+              <div className="flex items-center justify-center my-3 w-auto h-auto  font-bold bg-[#D9D9D9]">ADD</div>
 
               <p className='text-[14px] w-[100%] '>
                 সামাজিক যোগাযোগ মাধ্যমে প্রায়সময়ই সরব ভূমিকায় দেখা যায় অভিনেত্রী জয়া আহসানকে। শুধু নিজের ছবি-ভিডিও শেয়ার করেই নয়, বিভিন্ন ইস্যুতেও মত প্রকাশ করেন এই অভিনেত্রী।
@@ -39,12 +41,12 @@ const SecondHomePage = () => {
               <div className="flex items-center justify-center my-3 mx-auto w-[50%] h-[250px]  font-bold bg-[#D9D9D9]">ADD</div>
 
               <Add />
-              <SorbocchoPothito />
+             
 
             </div>
             <div className='md:col-span-3'>
               <ThirdSideNewsOne />
-              <div className='w-[80%] md:ml-[72px] ml-1'>
+              <div className='w-[100%]  ml-1'>
               <NewsTabs />
               </div>
 
@@ -53,6 +55,16 @@ const SecondHomePage = () => {
           </div>
 
         </div>
+
+      </div>
+
+      <div className='grid md:grid-cols-12 md:mx-10 mx-2 mt-3 gap-6 lg:grid-cols-12 grid-cols-1'>
+      <div className='col-span-12'>
+      
+
+
+      <NewsCard/>
+      </div>
 
       </div>
     </div>

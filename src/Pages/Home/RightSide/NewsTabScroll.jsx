@@ -3,7 +3,7 @@ const NewsTabScroll = () => {
     return (
       <div>
           <div>
-                <div className='w-[250px] py-3 flex flex-col bg-[#D9D9D9] gap-1'>
+                <div className='w-full py-3 flex flex-col bg-[#D9D9D9] gap-6'>
                   <div className='flex gap-2'>
                     <div className='news-box3'>
   
