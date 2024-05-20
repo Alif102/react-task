@@ -58,6 +58,12 @@
 }
 
 .news-box3 {
+    width: 50%;
+    height: 65%;
+    padding: 3px;
+    /* margin-left: 15px; */
+}
+.news-box2 {
     width: 40%;
     height: 80px;
     background: #F5F5F5;

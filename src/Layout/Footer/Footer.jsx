@@ -1,36 +1,65 @@
 import React from 'react'
-import logo from '../../assets/Images/news_logo.png'
+
 const Footer = () => {
   return (
     <div>
-      <footer className="footer mt-5 md:w-[95%] w-full mx-auto p-10 bg-base-200 text-base-content">
-  <aside>
-    {/* <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd" className="fill-current"><path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path></svg> */}
-    <a className="">
-            <img className='h-[80px] w-[80%] rounded-md' src={logo} alt="logooooo" />
-          </a>
-    <p>News Portal Industries Ltd.<br/>Providing reliable tech since 2024</p>
-  </aside> 
-  <nav>
-    <h6 className="footer-title ml-4">Services</h6> 
-    <a className="link link-hover">Branding</a>
-    <a className="link link-hover">Design</a>
-    <a className="link link-hover">Marketing</a>
-    <a className="link link-hover">Advertisement</a>
-  </nav> 
-  <nav>
-    <h6 className="footer-title ml-4">Company</h6> 
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
-  </nav> 
-  <nav>
-    <h6 className="footer-title ml-4">Legal</h6> 
-    <a className="link link-hover">Terms of use</a>
-    <a className="link link-hover">Privacy policy</a>
-    <a className="link link-hover">Cookie policy</a>
-  </nav>
+    
+<footer class="bg-gray-100 font-sans mt-4 ">
+    <div class="container px-6 py-12 mx-auto">
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+            <div class="sm:col-span-2">
+                <h1 class="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">Subscribe our newsletter to get an update.</h1>
+
+                <div class="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
+                    <input id="email" type="text" class="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Email Address" />
+            
+                    <button class="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <p class="font-semibold text-gray-800 dark:text-white">Quick Link</p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Home</p>
+                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Who We Are</p>
+                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Our Philosophy</p>
+                </div>
+            </div>
+
+            <div>
+                <p class="font-semibold text-gray-800 dark:text-white">Industries</p>
+
+                <div class="flex flex-col items-start mt-1 space-y-2">
+                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Retail & E-Commerce</p>
+                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Information Technology</p>
+                    <p class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Finance & Insurance</p>
+                </div>
+            </div>
+        </div>
+        
+        <hr class="mt-1 border-gray-200 md:my-1 dark:border-gray-700 h-2" />
+        
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <div class="flex flex-1 gap-4 hover:cursor-pointer">
+                <img src="https://www.svgrepo.com/show/303139/google-play-badge-logo.svg" width="130" height="110" alt="" />
+                <img src="https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg" width="130" height="110" alt="" />
+            </div>
+            
+            <div class="flex gap-4 hover:cursor-pointer">
+                <img src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg" width="30" height="30" alt="fb" />
+                <img src="https://www.svgrepo.com/show/303115/twitter-3-logo.svg" width="30" height="30" alt="tw" />
+                <img src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg" width="30" height="30" alt="inst" />
+                <img src="https://www.svgrepo.com/show/94698/github.svg" class="" width="30" height="30" alt="gt" />
+                <img src="https://www.svgrepo.com/show/22037/path.svg" width="30" height="30" alt="pn" />
+                <img src="https://www.svgrepo.com/show/28145/linkedin.svg" width="30" height="30" alt="in" />
+                <img src="https://www.svgrepo.com/show/22048/dribbble.svg" class="" width="30" height="30" alt="db" />
+            </div>
+        </div>
+        <p class="font-sans py-8 text-start md:text-center md:text-lg md:p-2">© 2024 You Company Inc. All rights reserved.</p>
+    </div>
 </footer>
     </div>
   )

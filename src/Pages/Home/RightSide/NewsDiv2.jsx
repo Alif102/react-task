@@ -12,7 +12,7 @@ const NewsDiv2 = () => {
                     <img className=' transition duration-300 ease-in-out hover:scale-110' src={a2} alt="car" />
   
                     </div>
-                    <h1 className="text-[12px] font-bold">২৩ নাবিককে মুক্ত করতে <br/> বিশেষ অভিযানের প্রস্তাব, <br/> বিশেষজ্ঞদের ‘না’</h1>
+                    <h1 className="text-[12px] font-bold">২৩ নাবিককে মুক্ত করতে  বিশেষ অভিযানের প্রস্তাব,  বিশেষজ্ঞদের ‘না’</h1>
                   </div>
   
   
@@ -21,7 +21,7 @@ const NewsDiv2 = () => {
                     <div className=' news-box2 relative overflow-hidden  bg-no-repeat'>
                     <img className=' transition duration-300 ease-in-out hover:scale-110' src={a5} alt="car" />
                     </div>
-                    <h1 className="text-[12px] font-bold">২৩ নাবিককে মুক্ত করতে <br/> বিশেষ অভিযানের প্রস্তাব, <br/> বিশেষজ্ঞদের ‘না’</h1>
+                    <h1 className="text-[12px] font-bold">২৩ নাবিককে মুক্ত করতে  বিশেষ অভিযানের প্রস্তাব,  বিশেষজ্ঞদের ‘না’</h1>
                   </div>
                   
   
@@ -29,14 +29,14 @@ const NewsDiv2 = () => {
                     <div className=' news-box2 relative overflow-hidden  bg-no-repeat'>
 <img className=' transition duration-300 ease-in-out hover:scale-110' src={a3} alt="car" />  
                     </div>
-                    <h1 className="text-[12px] font-bold">২৩ নাবিককে মুক্ত করতে <br/> বিশেষ অভিযানের প্রস্তাব, <br/> বিশেষজ্ঞদের ‘না’</h1>
+                    <h1 className="text-[12px] font-bold">২৩ নাবিককে মুক্ত করতে  বিশেষ অভিযানের প্রস্তাব,  বিশেষজ্ঞদের ‘না’</h1>
                   </div>
   
                   <div className='flex gap-2'>
                     <div className=' news-box2 relative overflow-hidden  bg-no-repeat'>
 <img className=' transition duration-300 ease-in-out hover:scale-110' src={a4} alt="car" />  
                     </div>
-                    <h1 className="text-[12px] font-bold">২৩ নাবিককে মুক্ত করতে <br/> বিশেষ অভিযানের প্রস্তাব, <br/> বিশেষজ্ঞদের ‘না’</h1>
+                    <h1 className="text-[12px] font-bold">২৩ নাবিককে মুক্ত করতে  বিশেষ অভিযানের প্রস্তাব,  বিশেষজ্ঞদের ‘না’</h1>
                   </div>
   
                 </div>

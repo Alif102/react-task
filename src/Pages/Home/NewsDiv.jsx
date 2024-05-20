@@ -4,31 +4,7 @@ const NewsDiv = () => {
     <div>
         <div>
               <div className='w-[100%] h-auto space-y-4  py-3 pt-7 pr-1 rounded-sm mt-6 flex flex-col shadow-lg p-2'>
-                {/* <div className='flex flex-row justify-center items-center gap-1'>
-                  <div className='news-box'>
-
-                  </div>
-                  <h1 className="text-[10px] font-bold">কায়রো থেকে মরুভূমিতে রাজধানী সরিয়ে নিচ্ছে মিসর</h1>
-                </div>
-
-               
-                
-                
-               
-
-                <div className='flex justify-center  items-center gap-1'>
-                  <div className='news-box'>
-
-                  </div>
-                  <h1 className="text-[10px] font-bold">কায়রো থেকে মরুভূমিতে রাজধানী সরিয়ে নিচ্ছে মিসর</h1>
-                </div>
-
-                <div className='flex justify-center  items-center gap-1'>
-                  <div className='news-box'>
-
-                  </div>
-                  <h1 className="text-[10px] font-bold">কায়রো থেকে মরুভূমিতে রাজধানী সরিয়ে নিচ্ছে মিসর</h1>
-                </div> */}
+              
 
                 <h1 className="font-bold text-2xl mb-3 text-center">
                 আজকের মানি এক্সচেঞ্জ রেট
