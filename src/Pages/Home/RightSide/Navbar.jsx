@@ -58,7 +58,7 @@ const Navbar = () => {
                 </div>
                 <div className={`nav-links duration-1000 
                 md:static absolute bg-gray-200 md:min-h-fit
-                 min-h-[60vh] left-2 ${isMenuOpen ? 'top-[9%] transition-transform ease-in ease-out' : 'top-[-100%]'} md:w-auto
+                 min-h-[60vh] right-2 ${isMenuOpen ? 'top-[9%] transition-transform ease-in ease-out' : 'top-[-100%]'} md:w-auto
                   w-1/2 flex justify-center  items-center px-5`}>
                     <ul className="flex  md:flex-row flex-col md:items-center md:gap-5 gap-3">
                         {/* <li>
