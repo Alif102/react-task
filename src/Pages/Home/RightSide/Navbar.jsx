@@ -1,72 +1,100 @@
-
-
+// import React, { useState } from 'react';
+// import { FaBars, FaTimes } from 'react-icons/fa';
 import logo from '../../../assets/Images/news_logo.png'
+// const Navbar = () => {
+//   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+//   const toggleMenu = () => {
+//     setIsMenuOpen(!isMenuOpen);
+//   };
+
+//   return (
+//     <header className="bg-gray-200 p-3">
+//       <nav className="flex justify-between w-[90%] items-center mx-auto">
+//         <div>
+//           <img className='h-[50px] w-[70%] rounded-md' src={logo} alt="logo" />
+//           {/* <img className="w-16 cursor-pointer" src="https://cdn-icons-png.flaticon.com/512/5968/5968204.png" alt="..." /> */}
+//         </div>
+//         <div className={`nav-links duration-500 md:static absolute  md:min-h-fit min-h-[60vh]
+//                  left-0 ${isMenuOpen ? 'top-[9%]' : 'top-[-100%]'} md:w-auto w-full flex items-center px-5`}>
+//           <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+            
+//           </ul>
+//         </div>
+//         <div className="flex items-center gap-6">
+//           {/* <button className="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Sign in</button> */}
+//           <div className="md:hidden">
+//             {isMenuOpen ? (
+//               <FaTimes onClick={toggleMenu} className="text-3xl cursor-pointer" />
+//             ) : (
+//               <FaBars onClick={toggleMenu} className="text-3xl cursor-pointer" />
+//             )}
+//           </div>
+//         </div>
+//       </nav>
+//     </header>
+//   );
+// };
+
+// export default Navbar;
+
+import React, { useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
-  return (
-    <div className="">
-     
-      <div className="navbar border-b border-l w-[93%] mx-auto bg-base-100">
-        <div className="navbar-start">
-         
-          <a className="">
-            <img className='h-[50px] w-[70%] rounded-md' src={logo} alt="logo" />
-          </a>
-        </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu  menu-horizontal px-1">
-            <li><a>প্রচ্ছদ</a></li>
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-            <li><a>বিদেশ</a></li>
-            <li><a>খেলা</a></li>
-            <li><a>বিনোদন</a></li>
-            <li><a>প্রবাস</a></li>
-            <li><a>স্বাস্থ্য</a></li>
-            <li ><a>বিচিত্রিতা</a></li>
-            <li ><a>ধর্ম</a></li>
-            <li ><a>সুসংবাদ</a></li>
-            <li ><a>অন্যান্য...</a></li>
-          </ul>
-        </div>
-        <div className="navbar-end ml-6 ">
-        <div className="dropdown ">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-            </div>
-            {/* <ul tabIndex={0} className="menu  menu-sm dropdown-content mt-3 z-[1] pt-2 shadow bg-base-100 rounded-box w-52">
-              <li ><a>প্রচ্ছদ</a></li>
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
 
-              <li><a>বিদেশ</a></li>
-              <li><a>খেলা</a></li>
-              <li><a>বিনোদন</a></li>
-              <li><a>প্রবাস</a></li>
-              <li><a>স্বাস্থ্য</a></li>
-              <li><a>বিচিত্রিতা</a></li>
+    return (
+        <header className="bg-gray-200 w-[93%] mx-auto">
+          
+            <nav className="flex justify-between items-center py-3 px-2 mx-auto   ">
+                <div>
+                <img className='h-[50px] w-[70%] rounded-md' src={logo} alt="logo" />
+                    {/* <img className="w-16 cursor-pointer" src="https://cdn-icons-png.flaticon.com/512/5968/5968204.png" alt="..." /> */}
+                </div>
+                <div className={`nav-links duration-1000 
+                md:static absolute bg-gray-200 md:min-h-fit
+                 min-h-[60vh] left-2 ${isMenuOpen ? 'top-[9%] transition-transform ease-in ease-out' : 'top-[-100%]'} md:w-auto
+                  w-1/2 flex justify-center  items-center px-5`}>
+                    <ul className="flex  md:flex-row flex-col md:items-center md:gap-5 gap-3">
+                        {/* <li>
+                            <a className="hover:text-gray-500" href="#">Products</a>
+                        </li> */}
+                       
+           <li><a className="hover:text-purple-500" href="#" >প্রচ্ছদ</a></li>
 
-              <li ><a>ধর্ম</a></li>
-              <li ><a>সুসংবাদ</a></li>
-              <li ><a>অন্যান্য...</a></li>
-            </ul> */}
-           <div className=' '>
-           <ul tabIndex={0} className="menu  menu-sm bg-base-100 z-[1] pt-2 rounded-box dropdown-content">
-            <li ><a>প্রচ্ছদ</a></li>
-            <li><a>বিদেশ</a></li>
-              <li><a>খেলা</a></li>
-              <li><a>বিনোদন</a></li>
-              <li><a>প্রবাস</a></li>
-              <li><a>স্বাস্থ্য</a></li>
-              <li><a>বিচিত্রিতা</a></li>
+            <li><a className="hover:text-purple-500" href="#">বিদেশ</a></li>
+            <li><a className="hover:text-purple-500" href="#">বিনোদন</a></li>
+            <li><a className="hover:text-purple-500" href="#">খেলা</a></li>
+            <li><a className="hover:text-purple-500" href="#">প্রবাস</a></li>
+            <li><a className="hover:text-purple-500" href="#">স্বাস্থ্য</a></li>
+            <li>	<a className="hover:text-purple-500" href="#">সুসংবাদ</a></li>
+            <li>	<a className="hover:text-purple-500" href="#">অন্যান্য...</a></li>
+                    </ul>
+                </div>
+                <div className="flex items-center gap-6">
+                    {/* <button className="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Sign in</button> */}
+                    <div className="md:hidden">
+                        {/* {isMenuOpen ? (
+                            <FaTimes onClick={toggleMenu} className="text-3xl cursor-pointer" />
+                        ) : (
+                            <FaBars onClick={toggleMenu} className="text-3xl cursor-pointer" />
+                        )} */}
+                        {isMenuOpen ? (
+                            <FaTimes onClick={toggleMenu} className="text-3xl cursor-pointer transition-opacity duration-300 opacity-100 hover:opacity-70" />
+                        ) : (
+                            <FaBars onClick={toggleMenu} className="text-3xl cursor-pointer transition-opacity duration-300 opacity-100 hover:opacity-70" />
+                        )}
+                    </div>
+                </div>
+            </nav>
+        </header>
+    );
+};
 
-              <li ><a>ধর্ম</a></li>
-              <li ><a>সুসংবাদ</a></li>
-              <li ><a>অন্যান্য...</a></li>
-            </ul>
-           </div>
-          </div>
-  </div>
-      </div>
-    </div>
-  )
-}
+export default Navbar;
 
-export default Navbar

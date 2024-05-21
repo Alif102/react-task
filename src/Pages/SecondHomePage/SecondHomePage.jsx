@@ -10,7 +10,7 @@ import NewsCard from '../../Component/NewsCard'
 const SecondHomePage = () => {
   return (
     <div className='container mx-auto'>
-      <div className='grid md:grid-cols-12 md:mx-10 mx-2 gap-6 lg:grid-cols-12 grid-cols-1'>
+      <div className='grid md:grid-cols-12 md:mx-12 mx-2 gap-6 lg:grid-cols-12 grid-cols-1'>
 
 
         <div className='col-span-2 hidden md:block order-last md:order-first'>

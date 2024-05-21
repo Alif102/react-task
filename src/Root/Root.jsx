@@ -1,7 +1,8 @@
 import { Outlet } from "react-router-dom"
 import { Toaster } from "react-hot-toast"
 import Footer from "../Layout/Footer/Footer"
-import Navbar from "../Layout/Navbar/Navbar"
+import Navbar from "../Pages/Home/RightSide/Navbar"
+// import Navbar from "../Layout/Navbar/Navbar"
 
 const Root = () => {
   return (
@@ -9,6 +10,7 @@ const Root = () => {
       <Toaster/>
 
      <div className="container mx-auto">
+     {/* <Navbar/> */}
      <Navbar/>
     
 
